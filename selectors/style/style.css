@@ -1,6 +1,6 @@
  /* Universal Selector */
 *{
-	/* text-align: center; */
+	/* text-align: center;  */
 	padding:5px;
 	margin-top:10px;
 }
@@ -105,8 +105,11 @@ a:active {
 .att{
 	border:3px solid black;
 }
-[class$="test"] {
+[class$="tost"] {
   background: blue;
+}
+[class^="to"] {
+  background: gray;
 }
 [class*="be"] {
   background: yellow;
