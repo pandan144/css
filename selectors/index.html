@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>selectors</title>
+		<link charset="ult-8">
+		<link name="viewpor" content="width=device_width, initial-scale=1.0">
+		<link rel="stylesheet"  href="style/style.css">
+	</head>
+	<body>
+		<!-- simple selector two type selector   -->
+		<div id="para">
+			<p>the css slectors for five types</p>
+		</div>
+		
+		<div class="par">
+			<p>the css slectors for five types</p>
+		</div>
+	
+		<!-- Combinators selector descendant selector (space) child selector (>) adjacent sibling selector (+) general sibling selector (~)-->
+		<div class="des">
+			<h1>descendant selector</h1>
+			<p> spce in</p>
+		</div>	
+		
+		<!-- child selector -->
+		<section class="chil">
+			<div class="chi">
+				<h1>child selector</h1>
+				<p> the simple > in</p>
+				<h1>child selector</h1>
+				<p> the simple > in</p>
+				<section>
+				<p> child selectors</p>
+				</section>
+			</div>
+			<div>
+				<p> the child selector</p>
+			</div>
+		</section>	
+		
+		 <!-- adjacent sibling selector (+) -->
+		<section class="adja">
+			<div class="adj">
+				<h1>adjacent sibling selector</h1>
+				<p> the simple + in</p>
+				<p>adjacent sibling selector </p>
+				<p> adjacent sibling selector </p>
+			</div>
+				<p>adjacent sibling selector </p>
+				<p> adjacent sibling selector </p>
+			<div class="adj">
+				<p>adjacent sibling selector </p>
+				<p>adjacent sibling selector </p>
+				<p>adjacent sibling selector </p>
+			</div>
+				<p>adjacent sibling selector </p>
+				<p> adjacent sibling selector </p>
+		</section>
+		
+		<!-- general sibling selector -->
+		<section class="gene">
+			<div class="gen">
+				<h1>general sibling selector</h1>
+				<p> the simple ~ in</p>
+			</div>
+			</div>
+				<p>general sibling selector </p>
+				<p>generalsibling selector </p>
+			<div class="gen">
+				<p>general sibling selector </p>
+				<p>general sibling selector </p>
+				<p>general sibling selector </p>
+			</div>
+				<p>general sibling selector </p>
+				<p>general sibling selector </p>
+		</section>	
+		
+		<!-- pseudo-class selector -->
+		<div class="pc">
+			<a href=""> home</a>
+			<a href=""> about</a>
+			<a href=""> img</a>
+			<a href=""> contact</a>
+		</div>
+		
+		<!-- pseudo-element selector  -->
+		<div class="pe">
+				<p>pseudo-element selectorpseudo-element selector pseudo-element selector </p>
+			</div>
+			<div class="ped">
+				<p>pseudo-element selectorpseudo-element selector pseudo-element selector </p>
+			</div>
+			
+		<!-- attribute element -->
+		<div class="att">
+			<h1>attribute</h1>
+			<code> [attribute|="value"]</code>
+			<div>
+			<p class="mytest">This is some text in a paragraph.</p>
+			</div>
+			<div class="first_test">The first div element.</div>
+			<div class="second">The second div element.</div>
+			<div>
+				<h3>CSS [attribute*="value"] Selector</h3>
+				<div class="first">The first div element.
+					<p class="second">The second div element.</p>
+					<p class="my-best">The third div element.</p>
+					<p class="mybest">This is some text in a paragraph.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,113 @@
+ /* Universal Selector */
+*{
+	text-align: center;
+	padding:5px;
+	margin-top:10px;
+}
+
+/* id selector */
+#para{
+	background-color:blue;
+	color:white;
+	border:2px solid red;
+}
+
+/* class selector */
+.par{
+	background-color:black;
+	color:white;
+}
+ 
+  /* descendant selector */
+ .des{
+	 background-color:blue;
+ }
+ .des p{
+	color:black;
+	font-size:20px;
+	letter-spacing:10px;
+ }
+ 
+ /* child selector */
+ .chil{
+	
+	 border:2px solid red;
+ }
+ .chi >p{
+	color:blue;
+	font-size:20px;
+	letter-spacing:10px;
+	 background-color:black;
+ }
+ 
+ /* adjacent sibling selector  */
+ .adja{
+	 border:2px solid red;
+ }
+ .adj +p{
+	color:white;
+	font-size:20px;
+	letter-spacing:10px;
+	background-color:blue;
+ }
+ 
+/* general sibling selector  */
+  .gene{
+	 border:2px solid black;
+ }
+ .gen~p{
+	color:black;
+	font-size:20px;
+	letter-spacing:10px;
+	background-color:blue;
+ }
+  
+   /* pseudo-class selector */
+ .pc{
+	border:2px solid red 
+ }
+ /* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+ 
+ /* pseudo-element selector */
+ .pe{
+	border:2px solid black;  
+ }
+ .pe::first-letter {
+  color: #ff0000;
+  font-variant: CaptionText;
+}
+.ped::after{
+	content:"read more";
+	border-left:10px solid red;
+}
+.ped{
+	border:3px solid red;
+}
+.pe::before{
+	content:"read only";
+	border-right:10px solid red;
+}
+
+/* attr element */
+.att{
+	border:3px solid black;
+}
+[class$="test"] {
+  background: blue;
+}
+[class*="be"] {
+  background: yellow;
+}
