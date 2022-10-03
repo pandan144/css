@@ -1,6 +1,6 @@
  /* Universal Selector */
 *{
-	text-align: center;
+	/* text-align: center; */
 	padding:5px;
 	margin-top:10px;
 }
@@ -85,7 +85,7 @@ a:active {
  .pe{
 	border:2px solid black;  
  }
- .pe::first-letter {
+ .pe::first-line {
   color: #ff0000;
   font-variant: CaptionText;
 }
@@ -111,3 +111,18 @@ a:active {
 [class*="be"] {
   background: yellow;
 }
+::marker { 
+  color: red;
+  font-size: 23px;
+}
+p::selection {
+  color: red;
+  background: yellow;
+}
+a[target=_blank] {
+  background-color: red;
+}
+[class|="top"] {
+  background: blue;
+}
+
