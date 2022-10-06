@@ -1,0 +1,132 @@
+	.color{
+	    color:blue;
+	}
+	.gba{
+	    background-color:rgba(2, 99, 71, 0.5);
+	}
+	.hex{
+	    background-color:#ff6347;
+	}
+	.hsl{
+	    background-color:hsl(240, 100%, 50%);
+	}
+	.over{
+		text-decoration: overline;
+		text-decoration-color: blue;
+		text-decoration-style: solid;
+	}
+	
+/* text-deraction */
+	.lc{
+		text-decoration: line-through;
+		text-decoration-color: red;
+		text-decoration-style: double;
+		
+	}
+
+	.ls{
+		text-decoration: underline;
+		text-decoration-color: green;
+		text-decoration-style: dotted;
+		text-decoration-thickness:20px;
+	}
+
+	.oul{
+		  text-decoration: overline underline;
+		  text-decoration-color: yellow;
+		  text-decoration-style: wavy;
+		}
+		
+		/* text-align */
+	
+.center{
+      text-align: center;
+	  
+}
+.right{
+      text-align:right;
+}
+.left{
+      text-align:left;
+}
+.justify{
+    border:1px solid red;
+	width:70%;
+	text-align:justify;
+}
+.ta {
+  text-align-last: right;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.ta1 {
+  text-align-last: center;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 2;
+}
+.line{
+    line-height: 1.8;
+}
+.ta2{
+  text-align-last: justify;
+  font-family: "Times New Roman", Times, serif;
+}
+.dir{
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+/* vertical-align */
+img.baseline{
+  vertical-align: baseline;
+}
+
+.top{
+  vertical-align: text-top;
+}
+
+img.bottom {
+  vertical-align: text-bottom;
+}
+
+.sub{
+  vertical-align: sub;
+}
+
+img.sup{
+  vertical-align: super;
+  
+}
+
+/* text spacing */
+.ti{
+	text-indent:50px;
+}
+ .les{
+	letter-spacing:1.5rem;
+}
+.lh{
+	line-height:10;
+}
+.wos{
+	word-spacing:15px;
+}
+.whs{
+	white-space:nowrap;
+}
+/* text tranformation */
+.upper {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 0px 0px 10px black;
+  font-size:25px;
+}
+
+.lower {
+  text-transform: lowercase;
+  text-indent: 50px;
+}
+
+.cap {
+  text-transform: capitalize;
+  word-spacing: 10px;
+}
