@@ -101,7 +101,7 @@
 		  color:black 
 		  }
 		  
-		  .box5{
+		 .box5{
 		 color:white;
 		 width:200px;
 		 height:100px;
@@ -114,6 +114,60 @@
 		 .box5:hover{
 		  width:500px;
 		  color:black
+		  }
+		  
+		  .box-x{
+			width:200px;
+			height:100px;
+			transition-duration: 3s;
+			margin:10px 0px;
+			border:5px solid #ff0000;
+		  }
+		  .box-x:hover{
+		   transform:rotatex(150deg);
+		  }
+		  
+		   .box-y{
+			width:200px;
+			height:100px;
+			transition-duration: 3s;
+			border:5px solid #ccc;
+		  }
+		  .box-y:hover{
+		   transform:rotatey(90deg);
+		   margin:10px 0px;
+		  }
+		  
+		  .box-z{
+			width:200px;
+			height:100px;
+			transition-duration: 3s;
+		  }
+		  .box-z:hover{
+		   transform:rotatez(150deg);
+		  }
+		  
+		  .boxa{
+			width:200px;
+			height:100px;
+		  }
+		  .boxa{
+		   transform:translate(30px,20px);
+		  }
+		  .boxb{
+			width:200px;
+			height:100px;
+		  }
+		  .boxb{
+		   transform:scaley(2);
+		  }
+		  .boxc{
+			width:200px;
+			height:100px;
+			margin:10px 0;
+		  }
+		  .boxc{
+		   transform:translatey(30px);
 		  }
 		</style>
 	</head>
@@ -129,6 +183,16 @@
 		<div  class="box3" style="background-color:lightblue;">box-3</div>
 		<div  class="box4" style="background-color:red;">box-4</div>
 		<div class="box5" style="background-color:yellow;">box-5</div>
-		<div  class="box6" style="background-color:green;">box-6</div>
+		<div  class="box6" style="background-color:green;">box-6</div><hr>
+		<h2> 3d 2d transition<h2>
+		<p>transform:(translate(),translatex,translatey,rotate,scale,scalex,scaley,skew,skewx,skewy,matrix)</p>
+		<h1>2d transition</h1>
+		<div class="boxa" style="background-color:lightblue;">rotate x</div>
+		<div  class="boxb" style="background-color:lightgreen;">rotate y</div>
+		<div  class="boxc" style="background-color:lightblue;">rotate z</div>
+		<h1>3d transition</h1>
+		<div class="box-x" style="background-color:lightblue;">rotate x</div>
+		<div  class="box-y" style="background-color:lightgreen;">rotate y</div>
+		<div  class="box-z" style="background-color:lightblue;">rotate z</div>
 	</body>
 </html>
